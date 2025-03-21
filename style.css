@@ -1,0 +1,109 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+</style>
+*{
+    margin: 0;
+    text-align: center;
+}
+
+body{
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+
+#input{
+    background-image: url(https://media.istockphoto.com/id/476111648/photo/sunset-over-indian-ocean.webp?b=1&s=612x612&w=0&k=20&c=mPRJT258r4oJXjSZdeFyqbepK8E5QF8dywXlmXNsIlA=);
+     background-size: cover; 
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 40vh;
+    color: white;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 140px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+    border-radius: 35%;
+}
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: rgb(101, 159, 209);
+    border-radius: 35%;
+
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: red;
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: green;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #ad1493;
+}
+.trapezoid {
+	border-bottom: 50px solid #0a84b0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
